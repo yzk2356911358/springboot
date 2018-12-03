@@ -1,0 +1,20 @@
+#K-v形式
+#必须有空格
+server:
+  port: 8080
+  servlet:
+    context-path: /spring
+
+
+person:
+  name: Yzk
+  age: 19
+  boss: true
+  data: 2010/2/22
+  maps: {name: Yzk, Age: 19}
+  list: {dog, car, house}
+  dog:
+    id: 1
+    name: 小小
+    gender: 男
+
